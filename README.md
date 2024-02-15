@@ -23,7 +23,7 @@ Before using this script, ensure you meet the following requirements:
 - **CUDA Toolkit and Drivers:** Before running this script, make sure you have installed all the necessary tools for CUDA. Here are the commands to install CUDA Toolkit and CUDA drivers on Ubuntu:
 
   ```bash
-  sudo apt install nvidia-driver
+  sudo apt install nvidia-driver-{latest version}
   sudo reboot
   sudo apt install nvidia-cuda-toolkit
   ```

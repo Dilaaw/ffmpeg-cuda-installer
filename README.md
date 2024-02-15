@@ -27,6 +27,14 @@ Before using this script, ensure you meet the following requirements:
   sudo reboot
   sudo apt install nvidia-cuda-toolkit
   ```
+# Disclaimer
 
-  
+This script is tailored for Ubuntu-based systems and may not work on other distributions without modification.
 
+Use caution when running scripts from the internet, ensure you trust the source, and review the script contents before execution.
+
+Feel free to contribute or report issues on GitHub.
+
+---
+
+This README provides comprehensive information on how to use the script safely and effectively, including prerequisites, usage instructions, and disclaimers.

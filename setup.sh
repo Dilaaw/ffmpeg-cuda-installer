@@ -79,6 +79,6 @@ version_output=$(nvcc --version 2>&1)
 cuda_version=$(echo "$version_output" | grep -oE "release ([0-9]+\.[0-9]+)" | grep -oE "[0-9]+\.[0-9]+")
 
 # Configuration and installation of ffmpeg with CUDA
-./configure --enable-nonfree --enable-cuda-nvcc --enable-libnpp --extra-cflags=-I/usr/local/cuda_version/include --extra-ldflags=-L/usr/local/cuda_version/lib64
+./configure --enable-nonfree --enable-cuda-nvcc --enable-libnpp --extra-cflags=-I/usr/local/cuda-"$cuda_version"/include --extra-ldflags=-L/usr/local/cuda-"$cuda_version"/lib64
 make -j $(nproc)
 sudo make install

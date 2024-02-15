@@ -25,14 +25,14 @@ sudo apt-get update -qq && sudo apt-get -y install \
   texinfo \
   wget \
   yasm \
-  zlib1g-dev
-
-sudo apt-get -y install nasm
-sudo apt-get -y install libx264-dev
-sudo apt-get -y install libx265-dev libnuma-dev
-sudo apt-get -y install libvpx-dev
-sudo apt-get -y install libfdk-aac-dev
-sudo apt-get -y install libopus-dev
+  zlib1g-dev \
+  nasm \
+  libx264-dev \
+  libx265-dev \
+  libnuma-dev \
+  libvpx-dev \
+  libfdk-aac-dev \
+  libopus-dev
 
 # Downloading and configuring ffmpeg
 mkdir ffmpeg_sources

@@ -2,7 +2,21 @@
 
 This bash script automates the process of installing FFmpeg with CUDA support along with all necessary dependencies on Ubuntu-based systems.
 
-## What does this script do?
+## 🚀 Quick Installation
+
+### Direct execution from GitHub (recommended)
+```bash
+curl -L https://raw.githubusercontent.com/Dilaaw/ffmpeg-cuda-installer/main/setup.sh | bash
+```
+
+### Download and run locally
+```bash
+wget https://raw.githubusercontent.com/Dilaaw/ffmpeg-cuda-installer/main/setup.sh
+chmod +x setup.sh
+./setup.sh
+```
+
+## 🎯 What does this script do?
 
 - **Dependencies Installation:** Installs essential libraries and development packages required for compiling FFmpeg and its codecs.
 
@@ -12,7 +26,7 @@ This bash script automates the process of installing FFmpeg with CUDA support al
 
 - **Configuration and Installation of FFmpeg with CUDA:** Configures and compiles FFmpeg with CUDA support enabled, allowing for hardware-accelerated video processing on Nvidia GPUs.
 
-## Prerequisites
+## 📋 Prerequisites
 
 Before using this script, ensure you meet the following requirements:
 
@@ -27,7 +41,7 @@ Before using this script, ensure you meet the following requirements:
   sudo reboot
   sudo apt install nvidia-cuda-toolkit
   ```
-# Disclaimer
+## ⚠️ Disclaimer
 
 This script is tailored for Ubuntu-based systems and may not work on other distributions without modification.
 

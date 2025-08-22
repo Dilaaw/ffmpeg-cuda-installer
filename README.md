@@ -4,15 +4,24 @@ This bash script automates the process of installing FFmpeg with CUDA support al
 
 ## 🚀 Quick Installation
 
-### Direct execution from GitHub (recommended)
+**Choose one of the following methods:**
+
+### ⚡ Direct execution from GitHub (recommended)
 ```bash
 curl -L https://raw.githubusercontent.com/Dilaaw/ffmpeg-cuda-installer/main/setup.sh | bash
 ```
 
-### Download and run locally
+### 📥 Download and run locally
 ```bash
 wget https://raw.githubusercontent.com/Dilaaw/ffmpeg-cuda-installer/main/setup.sh
 chmod +x setup.sh
+./setup.sh
+```
+
+### 📂 Clone repository
+```bash
+git clone https://github.com/Dilaaw/ffmpeg-cuda-installer.git
+cd ffmpeg-cuda-installer
 ./setup.sh
 ```
 
